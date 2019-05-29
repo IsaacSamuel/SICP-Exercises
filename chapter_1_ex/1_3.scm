@@ -1,5 +1,5 @@
-;Define a procedute that takes three numbers as arguments and returns sum of the squares 
-;of the largest two elements
+; Define a procedute that takes three numbers as arguments and returns sum of the squares 
+;  of the largest two elements
 
 (define (square x) 
 	(* x x)
@@ -21,19 +21,19 @@
 )
 
 (square 5)
-;25
+; 25
 
 (sum_of_squares 5 5)
-;50
+; 50
 
 (sum_of_largest_args_squared 1 2 3)
-;13
+; 13
 
 (sum_of_largest_args_squared 3 1 4)
-;25
+; 25
 
 (sum_of_largest_args_squared 3 3 3)
-;18
+; 18
 
 (sum_of_largest_args_squared 4 2 1)
-;20
+; 20
