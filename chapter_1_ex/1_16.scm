@@ -19,10 +19,11 @@
 		((= (* count 2) n) 
 			(* a a))
 		((> n (* count 2))
-			(* a (exp-iter b (- n count) b 1)))
+			(exp-iter b (- n count) a 1))
 		(else (exp-iter b n (* a a) (* count 2)))
 	)
 )
+
 
 ; TESTS:
 
@@ -49,3 +50,7 @@
 
 (exp 3 3)
 ; Expected value 27
+
+
+
+

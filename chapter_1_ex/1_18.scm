@@ -38,9 +38,7 @@
 			)
 
 			((> b (double count))
-				(+ accumulator
-					(multiply-iter a (- b count) a 1)
-				)
+				(multiply-iter a (- b count) accumulator 1)
 			)
 
 			((< (double count) b)
